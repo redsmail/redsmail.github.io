@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+@font-face {
+font-family : "'Neucha'";
+font-style : normal;
+font-weight : 400;
+src : local('Neucha'), url(https://fonts.gstatic.com/s/neucha/v8/EcY9zoxaUNcYqXVG35_hCQ.ttf) format('truetype');
+}
+@font-face {
+font-family : "'Bowlby One SC'";
+font-style : normal;
+font-weight : 400;
+src : local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url(https://fonts.gstatic.com/s/bowlbyonesc/v8/8ZkeXftTuzKBtmxOYXoReWwgCUWMlcoGHIqZ0R9q_Yo.ttf) format('truetype');
+}
+h3, h4, #nav, #header_image ul li a {
+font-family : 'Neucha', cursive;
+}
+h2 {
+margin-top : 1em;
+margin-bottom : 1.4em;
+margin-right : 1em;
+margin-left : 1em;
+}
+video {
+width : 100%;
+height : 100%;
+}
+#footer img {
+border : rgb(0, 0, 0) solid 1px;
+border-radius : 5px;
+}
+body {
+background-color : #111111;
+}
+body ul {
+list-style-type : none;
+}
+#header {
+margin : 15px;
+border-radius : 15px;
+background : rgb(0, 0, 0);
+}
+#name_st a {
+text-decoration : none;
+font-family : 'Bowlby One SC', sans-serif;
+font-size : 2.3em;
+color : white;
+text-align : center;
+}
+#nav {
+overflow : hidden;
+height : 1.5em;
+margin : 1.5em;
+}
+#nav ul li a {
+height : 0.7em;
+color : white;
+display : block;
+margin : 1px 1px;
+}
+#nav ul li a:hover {
+color : red;
+}
+#post img {
+width : 70%;
+}
+#content1 {
+background-color : #000000;
+border-radius : 15px;
+overflow : hidden;
+margin : 15px;
+padding : 15px;
+}
+#content1 h2 {
+color : red;
+}
+#content1 p {
+color : #CFCFCF;
+font-size : 20px;
+padding : 0;
+}
+#content {
+background-color : #000000;
+border-radius : 15px;
+overflow : hidden;
+margin : 15px;
+padding : 15px;
+}
+#content a {
+line-height : 1;
+display : inline-block;
+color : red;
+text-decoration : none;
+cursor : pointer;
+}
+#content h2 {
+font-size : 22px;
+color : red;
+margin : 10px;
+}
+#content img {
+margin : 10px;
+}
+#content h3 {
+color : red;
+}
+#content .title {
+margin-top : 0;
+}
+#content p {
+color : #CFCFCF;
+font-size : 20px;
+padding : 10px;
+margin : 10px;
+}
+#content a {
+margin : 10px;
+}
+#post {
+margin : 10px;
+padding : 10px;
+border-radius : 15px;
+}
+.leftimg {
+float : left;
+margin : 7px 7px 7px 0;
+}
+.rightimg {
+float : right;
+margin : 7px 0 7px 0;
+}
+#column1 {
+text-align : center;
+float : left;
+width : 250px;
+margin-right : 70px;
+margin-left : -30px;
+}
+#column2 {
+text-align : center;
+float : left;
+width : 250px;
+margin-right : 70px;
+margin-left : -30px;
+}
+#column3 {
+text-align : center;
+float : left;
+width : 250px;
+margin-right : 70px;
+margin-left : -30px;
+}
+#column3 h2 {
+padding-top : 20px;
+}
+#column4 {
+text-align : center;
+float : left;
+width : 250px;
+margin-left : -40px;
+}
+#column4 p {
+width : 230px;
+padding : 8px;
+margin : 11px;
+}
+#footer ul li {
+margin : -10px;
+padding : 10px;
+}
+#footer, .footer_nav img {
+margin : 15px;
+}
+#footer p {
+font-size : 1.2em;
+padding-top : 40px;
+clear : both;
+font-weight : normal;
+color : grey;
+}
+#bigsize {
+position : fixed;
+left : 0;
+top : 0;
+width : 100%;
+height : 100%;
+background-color : rgba(150, 150, 150, 0.8);
+text-align : center;
+display : none;
+}
+#BigImg {
+width : 80%;
+}

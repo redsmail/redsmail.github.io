@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+@font-face {
+font-family : "'Neucha'";
+font-style : normal;
+font-weight : 400;
+src : local('Neucha'), url(https://fonts.gstatic.com/s/neucha/v8/EcY9zoxaUNcYqXVG35_hCQ.ttf) format('truetype');
+}
+@font-face {
+font-family : "'Bowlby One SC'";
+font-style : normal;
+font-weight : 400;
+src : local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url(https://fonts.gstatic.com/s/bowlbyonesc/v8/8ZkeXftTuzKBtmxOYXoReWwgCUWMlcoGHIqZ0R9q_Yo.ttf) format('truetype');
+}
+.up_button img {
+display : block;
+width : 100%;
+}
+.up_button {
+position : fixed;
+bottom : 5px;
+right : 25px;
+opacity : 0.100000001490116119384765625;
+cursor : pointer;
+transition-duration : 0.5s;
+}
+.up_button:hover {
+opacity : 0.800000011920928955078125;
+}
+#up_anchor a:after {
+display : block;
+content : "";
+width : 0%;
+background-color : #fafffb;
+transition : width 0.3s ease-in-out;
+}
+#content img {
+border : none;
+}
+#footer img {
+border : rgb(0, 0, 0) solid 1px;
+border-radius : 5px;
+}
+body {
+font-family : 'Neucha', cursive;
+font-size : 17px;
+}
+body ul {
+list-style-type : none;
+}
+#header {
+background : rgb(0, 0, 0);
+}
+#wow {
+text-align : right;
+padding : 0;
+}
+#nav {
+overflow : hidden;
+height : 1.5em;
+margin : 0.5em;
+}
+#nav ul {
+margin : 0;
+padding : 0;
+position : relative;
+left : 50%;
+float : left;
+height : 2.4em;
+}
+#nav ul li {
+position : relative;
+left : -50%;
+float : left;
+height : 2.4em;
+font-size : 0.62em;
+}
+#nav ul li a {
+padding : 3px;
+height : 2.4em;
+background : rgb(0, 0, 0);
+color : white;
+display : block;
+text-decoration : none;
+margin : 0 1px;
+transition-duration : 0.5s;
+}
+#post img {
+margin : -5% auto;
+margin-left : 15%;
+width : 70%;
+}
+#content {
+overflow : hidden;
+margin : 0 auto;
+}
+#content h2 {
+padding : 20px 0 0 0;
+font-size : 30px;
+}
+#content h3 {
+color : red;
+}
+#content .inf {
+padding : 0;
+text-align : right;
+}
+#content .infR {
+padding : 20px;
+}
+#content img {
+background : #000000;
+border-radius : 15px;
+}
+#footer {
+margin : 15px;
+font-size : 0.9em;
+padding-bottom : 1em;
+background-color : rgb(0, 0, 0);
+color : white;
+text-align : center;
+}
+#footer ul {
+margin : 10px;
+padding : 0;
+}
+h2.footer {
+text-align : center;
+color : red;
+}
+.footer_nav {
+height : 17em;
+}
+.footer_nav a {
+color : white;
+text-decoration : none;
+}
+.footer_nav a:hover {
+color : red;
+}
+a {
+line-height : 1;
+display : inline-block;
+color : red;
+text-decoration : none;
+cursor : pointer;
+}

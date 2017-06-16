@@ -1,0 +1,65 @@
+@media only all and (min-width:320px) {
+#nav ul li {
+height : 2.6em;
+font-size : 1em;
+}
+#nav ul li a {
+padding : 0 0;
+line-height : 1em;
+}
+#content {
+width : auto;
+}
+#content img {
+max-width : 100%;
+width : auto;
+}
+#footer {
+text-align : center;
+}
+}
+@media only all and (min-width:480px) {
+#nav ul li {
+height : 2.6em;
+font-size : 1em;
+}
+#nav ul li a {
+padding : 0.2em 1em;
+}
+#content {
+width : auto;
+}
+#content img {
+display : block;
+max-width : 100%;
+}
+}
+@media only all and (min-width:600px) {
+body .footer_nav {
+font-size : 1.2em;
+width : 29.65%;
+float : left;
+clear : none;
+}
+}
+@media only all and (min-width:768px) {
+body .footer_nav {
+font-size : 1.2em;
+width : 29.65%;
+float : left;
+clear : none;
+}
+}
+@media only all and (min-width:1024px) {
+#header {
+text-align : left;
+}
+body #nav {
+position : absolute;
+top : -0.2em;
+right : 4%;
+}
+#name_st {
+padding-left : 4%;
+}
+}
